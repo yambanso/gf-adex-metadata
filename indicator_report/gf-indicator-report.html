@@ -6717,7 +6717,7 @@
             //Make summary
             var html = "<div id='summary_table'><h2>Configured Indicators</h2>";
             html = html + "<table id='summary' class='display' width='100%'>";
-            html = html + "<thead><tr><th>Inidcator</th><th>Numerator configured</th><th>Period Type</th><th>Denominator configured</th><th>Period type</th></tr></thead><tbody>";
+            html = html + "<thead><tr><th>Inidcator</th><th>Numerator configured</th><th>Numerator Period Type</th><th>Denominator configured</th><th>Denominator Period type</th></tr></thead><tbody>";
             for (var i = 0; i < configuredGlobalFundIndicators.length; i++) {
                 var numeratorPeriodType = configuredGlobalFundIndicators[i].numeratorPeriodType ? configuredGlobalFundIndicators[i].numeratorPeriodType.join(", ") : "Not configured in any request.";
                 var denominatorPeriodType = configuredGlobalFundIndicators[i].denominatorPeriodType ? configuredGlobalFundIndicators[i].denominatorPeriodType.join(", ") : "Not configured in any request.";
